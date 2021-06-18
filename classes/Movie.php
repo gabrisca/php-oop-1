@@ -9,8 +9,8 @@ class Movie {
   public $director;
   public $writer;
   public $cast;
+  private $storyline; // private obbliga ad utilizzare una funzione per accedere alla proprietà (linee 26 e 35)
   static $counter = 0; // 0 come valore di default
-  private $storyline;
 
   public function __construct($_title, $_year)
   {
