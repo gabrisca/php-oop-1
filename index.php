@@ -48,7 +48,7 @@ $movie4->setStoryline("When 'the dude' Lebowski is mistaken for a millionaire Le
 $movie5 = new Movie('O Brother, Where Art Thou?', '2000');
 $movie5->director = 'Joel Coen, Ethan Coen';
 $movie5->writer = 'Joel Coen, Ethan Coen';
-$movie5->cast = 'George Clooney, John Turtutto, Tim Blake Nelson';
+$movie5->cast = 'George Clooney, John Turturro, Tim Blake Nelson';
 $movie5->setStoryline("Loosely based on Homer's 'Odyssey' the movie deals with the picaresque adventures of Ulysses Everett McGill and his companions Delmar and Pete in 1930s Mississipi. Sprung from a chain gang and trying to reach Everett's home to recover the buried loot of a bank heist they are confronted by a series of strange characters--among them sirens, a cyclops, bank robber George 'Baby Face' Nelson (very annoyed by that nickname), a campaigning governor and his opponent, a KKK lynch mob, and a blind prophet who warns the trio that 'the treasure you seek shall not be the treasure you find'...");
 // var_dump($movie5);
 

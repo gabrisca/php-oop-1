@@ -16,7 +16,7 @@ class Movie {
   {
     $this->title = $_title;
     $this->year = $_year;
-    self::$contatore++; // incremento il contatore ogni volta che agggiungo un'istanza ad User
+    self::$contatore++; // incremento il contatore ogni volta che agggiungo un'istanza 
   }
 
   /////////////////////////
