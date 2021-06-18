@@ -225,7 +225,7 @@ $movie5->setStoryline("Loosely based on Homer's 'Odyssey' the movie deals with t
   </section>
 
   <section id="counter">
-    <h2>movies found: <?php echo Movie::$contatore ?></h2>
+    <h2>movies found: <?php echo Movie::$counter ?></h2>
   </section>
 
 </body>

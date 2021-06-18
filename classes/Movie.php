@@ -9,14 +9,14 @@ class Movie {
   public $director;
   public $writer;
   public $cast;
-  static $contatore = 0; // 0 come valore di default
+  static $counter = 0; // 0 come valore di default
   private $storyline;
 
   public function __construct($_title, $_year)
   {
     $this->title = $_title;
     $this->year = $_year;
-    self::$contatore++; // incremento il contatore ogni volta che agggiungo un'istanza 
+    self::$counter++; // incremento il contatore ogni volta che agggiungo un'istanza 
   }
 
   /////////////////////////
